@@ -5,7 +5,8 @@ class Array {
 
         // declaring a string array with a limit of 3
         // when this string was declared, it was assigned 3 values
-        // you can't assign anymore to this array after declaration
+        // additional indices cannot be assigned to this array after declaration
+        // existing indices can be reassigned as long as the 'final' keyword isn't used
         String[] myStringArray = { "Java", "Is", "Specific" };
 
         // declaring a new integer array with a limit of 3
